@@ -8,4 +8,6 @@
 ./scripts/editors.sh
 ./tools/packages.sh
 
+termux-reload-settings
+
 #  p10k configure
