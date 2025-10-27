@@ -4,3 +4,5 @@
 ./scripts/removeFile.sh
 ./scripts/installZsh.sh
 ./scripts/ohmy.sh
+
+exit

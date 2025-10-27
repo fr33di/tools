@@ -9,5 +9,7 @@
 ./tools/packages.sh
 
 termux-reload-settings
+clear
+echo -e "\n\nPara configurar: \n\n p10k configure"
 
 #  p10k configure
