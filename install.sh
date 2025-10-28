@@ -5,4 +5,3 @@
 ./scripts/installZsh.sh
 ./scripts/ohmy.sh
 
-exit
