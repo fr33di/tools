@@ -1,6 +1,0 @@
-Nuevo Texto 1
-linea 2
-limea 3
-linea 4
-Nuevo Texto 5
-linea 6

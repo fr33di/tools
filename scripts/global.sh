@@ -1,5 +1,6 @@
 # Copiar el archivo global a home
 cp -f ./scripts/termux_global "$HOME/.termux_global"
+cp -f ./scripts/tmux.conf "$HOME/.tmux.conf"
 
 # Archivo de configuración de Zsh
 archivo="$HOME/.zshrc"
@@ -11,4 +12,6 @@ cadena='[ -f "$HOME/.termux_global" ] && source "$HOME/.termux_global"'
 grep -qxF "$cadena" "$archivo" || echo "$cadena" >> "$archivo"
 
 # Recargar .zshrc
-zsh "$HOME/.zshrc"
+source "$HOME/.zshrc"
+
+

@@ -14,7 +14,7 @@ packages=(
     "lsd"
     "openssh"
     "tmux"
-    "wget"   # agregado
+    "wget"
 )
 
 # Actualizar la lista de paquetes

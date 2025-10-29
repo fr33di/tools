@@ -1,10 +1,13 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/zsh
+
 
 # Llamada a varios scripts con rutas parciales
 
-./scripts/global.sh
+# Importa variables y colores globales
+source ./scripts/global.sh
 termux-reload-settings
 
+# Ejecuta los otros scripts
 ./scripts/reemplazar.sh
 ./scripts/agregarLineas.sh
 ./scripts/copiarFont.sh
@@ -14,5 +17,10 @@ termux-reload-settings
 
 termux-reload-settings
 
-echo -e "\n\nPara configurar: \n\np10k configure"
-#  p10k configure
+# Mensaje final
+echo -e "${BYELLOW}Para configurar:${RESET} ${BCYAN}\np10k configure${RESET}"
+
+
+
+
+
