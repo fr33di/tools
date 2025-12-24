@@ -1,0 +1,5 @@
+git config user.name "username"
+git config user.email "maeil@gmail.com"
+git config credential.helper store
+git config credential.helper ""
+
